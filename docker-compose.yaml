@@ -16,7 +16,7 @@ services:
       - phpmyadmin
     restart: always
     ports:
-      - 8080:80
+      - 8083:80
 
   db:
     image: mariadb:latest
